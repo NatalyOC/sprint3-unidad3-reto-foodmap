@@ -1,0 +1,36 @@
+body {
+  font-family: 'Raleway', sans-serif !important;
+  background-color: #2B2B2B;
+  color:#86552F;
+}
+.container-flex{
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+  padding: 2em;
+  height: 100vh;
+}
+/*Estilos para vista search */
+.gallery_restaurant{
+  margin-bottom: 30px;
+}
+.port-image
+{
+    width: 100%;
+}
+img{
+  cursor: pointer;
+}
+img:hover{
+  opacity: .5;
+}
+ul{
+  background-color:transparent;
+  cursor:pointer;
+  width: 90%!important;
+  color: #ffffff;
+}
+li{
+  padding: 0.5rem;
+}
+.bio-modal{padding:15px;}
