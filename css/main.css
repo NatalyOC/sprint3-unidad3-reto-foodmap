@@ -34,3 +34,19 @@ li{
   padding: 0.5rem;
 }
 .bio-modal{padding:15px;}
+.img-rest{
+  height: 100%;
+  width: 100%;
+}
+.text-bold{
+  font-weight: bold;
+}
+/*Estilos para el modal */
+
+.modal-address{
+  padding: 5px;
+}
+.img-modal{
+ padding: 10px;
+ margin-bottom: 10px;
+}
