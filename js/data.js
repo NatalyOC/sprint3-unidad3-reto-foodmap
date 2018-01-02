@@ -104,7 +104,7 @@ var data={
         },
 		
 	   {
-          'name': 'El Guacamayo',
+          'name': 'Alfredo',
           'photo': '../assets/images/rmarina4.jpg',
           'address': 'Malecón Balta 790, Miraflores',
           'likes': 6,
