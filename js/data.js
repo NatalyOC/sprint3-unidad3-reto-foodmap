@@ -81,32 +81,32 @@ var data={
 	'marina':{
 		'restaurants': [
 	   {
-          'name': 'El Aguajal',
-          'photo': '../assets/images/rselva1.jpg',
-          'address': 'Jr. Huiracocha 1498, Jesús María',
+          'name': 'Delfino Mar',
+          'photo': '../assets/images/rmarina1.jpg',
+          'address': 'Jorge Chavez 509, Miraflores',
           'likes': 6,
 		  'dislikes':1,
         },
 		
 	   {
-          'name': 'El Pichito',
-          'photo': '../assets/images/rselva2.jpg',
-          'address': 'Jr. General Vidal 803, Breña',
+          'name': 'Punto Azul',
+          'photo': '../assets/images/rmarina2.jpg',
+          'address': 'Calle San Martin 595, Miraflores',
           'likes': 6,
 		  'dislikes':1,
         },
 		{
-          'name': 'La choza de la anaconda',
-          'photo': '../assets/images/rselva3.jpg',
-          'address': 'Av. Caminos del Inca 1666, Santiago de Surco',
+          'name': 'Pescados Capitales',
+          'photo': '../assets/images/rmarina3.jpg',
+          'address': 'Av. Mariscal La Mar 1337, Miraflores',
           'likes': 6,
 		  'dislikes':1,
         },
 		
 	   {
           'name': 'El Guacamayo',
-          'photo': '../assets/images/rselva4.jpg',
-          'address': 'Cl. Mello Franco 626, Jesús María',
+          'photo': '../assets/images/rmarina4.jpg',
+          'address': 'Malecón Balta 790, Miraflores',
           'likes': 6,
 		  'dislikes':1,
         },]
