@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Foodmap</title>
+  <link rel="icon" type="image/png" href="../assets/images/foodmap.png">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid" id="container-main">
     <div class="row">
       <div class="col-xs-12 text-center">
         <h1>Foodmap</h1>
-        <img src="../assets/images/map.jpg" alt="map" class="img-responsive">
+        <hr>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12">
+        <iframe class="col-xs-12 google-map" width="600" height="450" frameborder="0" style="border:0" src="https://www.mapsdirections.info/crear-un-mapa-de-google/map.php?width=100%&height=600&hl=en&q=miraflores%2Cperu+(Restaurants)&ie=UTF8&t=&z=14&iwloc=A&output=embed" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-lg-10 col-lg-offset-1">
         <h2>Comida cerca de ti</h2>
         <div id="custom-search-input">
           <div class="input-group col-md-12">
-            <input type="text" class="form-control input-lg" placeholder="Filtrar por tipo de comida:criolla,selvatica o criolla" id="input-search" />
+            <input type="text" class="form-control input-lg" placeholder="Filtrar por tipos de comida" id="input-search"/>
             <span class="input-group-btn">
               <button class="btn btn-default btn-lg" type="button" id="button-search">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
             </span>
           </div>
+          <span class="help">Tipos de comidas habilitadas: criolla,selvatica y marina.</span>
         </div>
       </div>
     </div>
@@ -41,14 +48,14 @@
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content color-modal">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h4 class="modal-title text-center text-bold" id="modal-titleRest"></h4>
           </div>
           <div class="modal-body text-center">
-            <div class="img-modal">
-              <img src="../assets/images/map.jpg" alt="map" class="img-responsive">
+            <div id="modal-imagesRest" class="img-modal">
+              <img src="../assets/images/map.jpg" alt="" class="img-responsive" id="modal-rest-images">
             </div>
             <p id="modal-addressRest" class="modal-address"></p>
           </div>
@@ -64,5 +71,4 @@
   <script src="../js/data.js"></script> 
   <script src="../js/search.js"></script>
 </body>
-
 </html>

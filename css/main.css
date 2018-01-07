@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif !important;
   background-color: #2B2B2B;
-  color:#86552F;
+  color:#B57339;
 }
 .container-flex{
   display: flex;
@@ -33,20 +33,41 @@ ul{
 li{
   padding: 0.5rem;
 }
-.bio-modal{padding:15px;}
-.img-rest{
-  height: 100%;
+.container-img{
+  height: 20vh;
   width: 100%;
+  border-radius: 3px;
+  border:4px solid #86552F;
+}
+.img-rest{
+ width: 100%;
+ height: 100%;
+} 
+hr{
+  font-weight: bold;
+}
+.help{
+ padding: 5px;
+ margin-top: 40px;
 }
 .text-bold{
   font-weight: bold;
 }
 /*Estilos para el modal */
-
+.bio-modal{padding:15px;}
+.color-modal{
+  background-color: #333!important;
+  color:#B57339;
+}
 .modal-address{
   padding: 5px;
 }
 .img-modal{
  padding: 10px;
  margin-bottom: 10px;
+}
+.google-map{
+  border-radius: 5px;
+  max-height: 50vh;
+  border:2px solid #86552F;
 }
